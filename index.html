@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Travel Agency</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Destino project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap4/bootstrap.min.css">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <div class="header">
+            <div class="container-fluid nopadding">
+                <div class="row">
+                    <div class="col">
+                        <div class="header-container d-flex flex-row align-items-center">
+                            <!-- Logo -->
+                            <div class="logo-container">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <div>travel </div>
+                                        <div class="logo_image"><img src="https://cdn.pbrd.co/images/Ho3lVp5.png" height="40" alt=""></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Main Navigation -->
+                            <nav class="desktop-nav">
+                                <ul>
+                                    <li class="nav-item active"><a href="#">Home</a></li>
+                                    <li class="nav-item nav-item dropdown">
+                                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vacations <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <div class="col first-col text-left">
+                                                <p class="main-title text-left">Europe</p>
+                                                <a class="dropdown-item" href="index.html">Spain</a>
+                                                <a class="dropdown-item" href="explore.html">Greece</a>
+                                                <a class="dropdown-item" href="listing.html">Italy</a>
+                                                <a class="dropdown-item" href="contact.html">France</a>
+                                                <a class="dropdown-item" href="single-listing.html">Germany</a>
+                                                <a class="dropdown-item" href="contact.html">Netherlands</a>
+                                                <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                            </div>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="col second-col">
+                                                <p class="main-title text-left">Asia</p>
+                                                <a class="dropdown-item" href="index.html">Japan</a>
+                                                <a class="dropdown-item" href="explore.html">China</a>
+                                                <a class="dropdown-item" href="listing.html">Philippines</a>
+                                                <a class="dropdown-item" href="single-listing.html">India</a>
+                                                <a class="dropdown-item" href="contact.html">Malaysia</a>
+                                                <a class="dropdown-item" href="contact.html">Russia</a>
+                                                <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                            </div>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="col third-col">
+                                                <p class="main-title text-left">World</p>
+                                                <a class="dropdown-item" href="index.html">South America</a>
+                                                <a class="dropdown-item" href="explore.html">North America</a>
+                                                <a class="dropdown-item" href="listing.html">Africa</a>
+                                                <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item nav-item dropdown">
+                                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Circuits <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <div class="col first-col text-left">
+                                                <p class="main-title text-left">Europe</p>
+                                                <a class="dropdown-item" href="explore.html">England</a>
+                                                <a class="dropdown-item" href="listing.html">Brazil</a>
+                                                <a class="dropdown-item" href="contact.html">Greece</a>
+                                                <a class="dropdown-item" href="contact.html">Italy</a>
+                                                <a class="dropdown-item" href="contact.html">Germany</a>
+                                                <a class="dropdown-item" href="contact.html">UK</a>
+                                                <a class="dropdown-item" href="contact.html">Netherlands</a>
+                                                <a class="dropdown-item" href="contact.html">Norway</a>
+                                                <a class="dropdown-item" href="contact.html">Sweden</a>
+                                                <a class="dropdown-item" href="contact.html">Finland</a>
+                                                <a class="dropdown-item" href="contact.html">Hungary</a>
+                                                <a class="dropdown-item" href="contact.html">Romania</a>
+                                                <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                            </div>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="col second-col">
+                                                <p class="main-title text-left">World</p>
+                                                <a class="dropdown-item" href="index.html">Canada</a>
+                                                <a class="dropdown-item" href="index.html">USA</a>
+                                                <a class="dropdown-item" href="index.html">Brazil</a>
+                                                <a class="dropdown-item" href="index.html">Mexico</a>
+                                                <a class="dropdown-item" href="index.html">Chile</a>
+                                                <a class="dropdown-item" href="contact.html">Egypt</a>
+                                                <a class="dropdown-item" href="contact.html">UAE</a>
+                                                <a class="dropdown-item" href="index.html">Tanzania</a>
+                                                <a class="dropdown-item" href="contact.html">Australia</a>
+                                                <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                            </div>
+                                    </li>
+                                    <li class="nav-item nav-item dropdown">
+                                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">City breaks <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <div class="col first-col">
+                                                <p class="main-title text-left">World</p>
+                                                <a class="dropdown-item" href="index.html">Tokyo</a>
+                                                <a class="dropdown-item" href="index.html">New York</a>
+                                                <a class="dropdown-item" href="index.html">Washington</a>
+                                                <a class="dropdown-item" href="index.html">Rio de Janeiro</a>
+                                                <a class="dropdown-item" href="index.html">Mumbai</a>
+                                                <a class="dropdown-item" href="contact.html">Caracas</a>
+                                                <a class="dropdown-item" href="contact.html">Cairo</a>
+                                                <a class="dropdown-item" href="index.html">Cape Town</a>
+                                                <a class="dropdown-item" href="contact.html">Taipei</a>
+                                                <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                            </div>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="col second-col text-left">
+                                                <p class="main-title text-left">Europe</p>
+                                                <a class="dropdown-item" href="index.html">Barcelona</a>
+                                                <a class="dropdown-item" href="explore.html">Athens</a>
+                                                <a class="dropdown-item" href="listing.html">Florence</a>
+                                                <a class="dropdown-item" href="contact.html">Paris</a>
+                                                <a class="dropdown-item" href="single-listing.html">Berlin</a>
+                                                <a class="dropdown-item" href="contact.html">Amsterdam</a>
+                                                <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a href="about.html">About us</a></li>
+                                    <li class="nav-item"><a href="offers.html">Offers</a></li>
+                                    <li class="nav-item"><a href="news.html">News</a></li>
+                                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                                    <li class="nav-item last-minute"><a href="about.html">Last minute</a></li>
+                                </ul>
+                            </nav>
+                            <!-- Hamburger -->
+                            <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Menu -->
+            <div class="mobile-menu">
+                <!-- Menu Close Button -->
+                <div class="close-btn-container">
+                    <div class="close-btn"></div>
+                </div>
+                <!-- Menu Items -->
+                <div class="menu-inner">
+                    <div class="menu">
+                        <ul>
+                            <li class="nav-item active"><a href="#">Home</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vacations <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="col first-col text-left">
+                                        <p class="main-title text-left">Europe</p>
+                                        <a class="dropdown-item" href="index.html">Spain</a>
+                                        <a class="dropdown-item" href="explore.html">Greece</a>
+                                        <a class="dropdown-item" href="listing.html">Italy</a>
+                                        <a class="dropdown-item" href="contact.html">France</a>
+                                        <a class="dropdown-item" href="single-listing.html">Germany</a>
+                                        <a class="dropdown-item" href="contact.html">Netherlands</a>
+                                        <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="col second-col">
+                                        <p class="main-title text-left">Asia</p>
+                                        <a class="dropdown-item" href="index.html">Japan</a>
+                                        <a class="dropdown-item" href="explore.html">China</a>
+                                        <a class="dropdown-item" href="listing.html">Philippines</a>
+                                        <a class="dropdown-item" href="single-listing.html">India</a>
+                                        <a class="dropdown-item" href="contact.html">Malaysia</a>
+                                        <a class="dropdown-item" href="contact.html">Russia</a>
+                                        <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="col third-col">
+                                        <p class="main-title text-left">World</p>
+                                        <a class="dropdown-item" href="index.html">South America</a>
+                                        <a class="dropdown-item" href="explore.html">North America</a>
+                                        <a class="dropdown-item" href="listing.html">Africa</a>
+                                        <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item nav-item  dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Circuits <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="col first-col text-left">
+                                        <p class="main-title text-left">Europe</p>
+                                        <a class="dropdown-item" href="explore.html">England</a>
+                                        <a class="dropdown-item" href="listing.html">Brazil</a>
+                                        <a class="dropdown-item" href="contact.html">Greece</a>
+                                        <a class="dropdown-item" href="contact.html">Italy</a>
+                                        <a class="dropdown-item" href="contact.html">Germany</a>
+                                        <a class="dropdown-item" href="contact.html">UK</a>
+                                        <a class="dropdown-item" href="contact.html">Netherlands</a>
+                                        <a class="dropdown-item" href="contact.html">Norway</a>
+                                        <a class="dropdown-item" href="contact.html">Sweden</a>
+                                        <a class="dropdown-item" href="contact.html">Finland</a>
+                                        <a class="dropdown-item" href="contact.html">Hungary</a>
+                                        <a class="dropdown-item" href="contact.html">Romania</a>
+                                        <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="col second-col">
+                                        <p class="main-title text-left">World</p>
+                                        <a class="dropdown-item" href="index.html">Canada</a>
+                                        <a class="dropdown-item" href="index.html">USA</a>
+                                        <a class="dropdown-item" href="index.html">Brazil</a>
+                                        <a class="dropdown-item" href="index.html">Mexico</a>
+                                        <a class="dropdown-item" href="index.html">Chile</a>
+                                        <a class="dropdown-item" href="contact.html">Egypt</a>
+                                        <a class="dropdown-item" href="contact.html">UAE</a>
+                                        <a class="dropdown-item" href="index.html">Tanzania</a>
+                                        <a class="dropdown-item" href="contact.html">Australia</a>
+                                        <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                    </div>
+                            </li>
+                            <li class="nav-item nav-item dropdown">
+                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">City breaks <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="col first-col">
+                                        <p class="main-title text-left">World</p>
+                                        <a class="dropdown-item" href="index.html">Tokyo</a>
+                                        <a class="dropdown-item" href="index.html">New York</a>
+                                        <a class="dropdown-item" href="index.html">Washington</a>
+                                        <a class="dropdown-item" href="index.html">Rio de Janeiro</a>
+                                        <a class="dropdown-item" href="index.html">Mumbai</a>
+                                        <a class="dropdown-item" href="contact.html">Caracas</a>
+                                        <a class="dropdown-item" href="contact.html">Cairo</a>
+                                        <a class="dropdown-item" href="index.html">Cape Town</a>
+                                        <a class="dropdown-item" href="contact.html">Taipei</a>
+                                        <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                    </div>
+                                    <div class="dropdown-divider"></div>
+                                    <div class="col second-col text-left">
+                                        <p class="main-title text-left">Europe</p>
+                                                  <a class="dropdown-item" href="index.html">Barcelona</a>
+                                                <a class="dropdown-item" href="explore.html">Athens</a>
+                                                <a class="dropdown-item" href="listing.html">Florence</a>
+                                                <a class="dropdown-item" href="contact.html">Paris</a>
+                                                <a class="dropdown-item" href="single-listing.html">Berlin</a>
+                                                <a class="dropdown-item" href="contact.html">Amsterdam</a>
+                                        <a class="dropdown-item see-all-btn" href="contact.html">See all locations</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="offers.html">Offers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item last-minute"><a href="about.html">Last minute</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Home -->
+                <div class="home">
+                    <div class="home-background"></div>
+                    <div class="home-content">
+                        <div class="home-content_inner">
+                            <div class="large-text">Travel</div>
+                            <div class="small-text">Travel the world</div>
+                        </div>
+                    </div>
+                    <div id="scroller" class="scroller">
+                        <a href="#search"><span></span></a>
+                    </div>
+                </div>
+                <div class="search" id="search">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="search-title text-center">Find our available trips</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="search-form_container">
+                                    <form action="#" id="search-form" class="search-form d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-between justify-content-start flex-wrap">
+                                        <div class="search-item col-md-6">
+                                            <div>Destination:</div>
+                                            <input type="text" class="destination search-input" required="required" placeholder="Where do you want to travel?">
+                                        </div>
+                                        <div class="search-item col-md-2">
+                                            <div>Min price</div>
+                                            <select name="min-price" id="min-price" class="dropdown-item-select search-input">
+                                                <option>&nbsp;</option>
+                                                <option>500</option>
+                                                <option>1000</option>
+                                                <option>1500</option>
+                                                <option>2000</option>
+                                                <option>2500</option>
+                                                <option>3000</option>
+                                                <option>3500</option>
+                                            </select>
+                                        </div>
+                                        <div class="search-item col-md-2">
+                                            <div>Max price</div>
+                                            <select name="max-price" id="max-price" class="dropdown-item-select search-input">
+                                                <option>&nbsp;</option>
+                                                <option>1000</option>
+                                                <option>1000</option>
+                                                <option>1500</option>
+                                                <option>2000</option>
+                                                <option>2500</option>
+                                                <option>3000</option>
+                                                <option>3500</option>
+                                                <option>4000</option>
+                                            </select>
+                                        </div>
+                                        <button class="button search-button">Find</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Popular -->
+                <div class="popular">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="main-title text-center animated wow fadeIn" data-wow-delay=".2s">
+                                    <h2>Popular destinations in 2018</h2>
+                                    <div>recommended by traveling guides</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="popular-content d-flex flex-md-row flex-column flex-wrap align-items-md-center align-items-start justify-content-md-between justify-content-start">
+                                    <!-- Popular Item -->
+                                    <div class="item animated wow fadeIn" data-wow-delay=".1s">
+                                        <a href="offers.html">
+								<img src="images/dubai.jpg" alt="dubai image">
+								<div class="item-content">
+									<div class="item-price">From $890</div>
+									<div class="item-title">Dubai</div>
+								</div>
+							</a>
+                                    </div>
+                                    <!-- Popular Item -->
+                                    <div class="item animated wow fadeIn" data-wow-delay=".2s">
+                                        <a href="offers.html">
+								<img src="images/france.jpg" alt="france image">
+								<div class="item-content">
+									<div class="item-price">From $590</div>
+									<div class="item-title">France</div>
+								</div>
+							</a>
+                                    </div>
+                                    <!-- Popular Item -->
+                                    <div class="item animated wow fadeIn" data-wow-delay=".3s">
+                                        <a href="offers.html">
+								<img src="images/germany.jpg" alt="germany image">
+								<div class="item-content">
+									<div class="item-price">From $490</div>
+									<div class="item-title">Germany</div>
+								</div>
+							</a>
+                                    </div>
+                                    <!-- Popular Item -->
+                                    <div class="item animated wow fadeIn" data-wow-delay=".4s">
+                                        <a href="offers.html">
+								<img src="images/uk.jpg" alt="uk picture">
+								<div class="item-content">
+									<div class="item-price">From $390</div>
+									<div class="item-title">UK</div>
+								</div>
+							</a>
+                                    </div>
+                                    <!-- Popular Item -->
+                                    <div class="item animated wow fadeIn" data-wow-delay=".4s">
+                                        <a href="offers.html">
+								<img src="images/thailand.jpg" alt="thailand picture">
+								<div class="item-content">
+									<div class="item-price">From $890</div>
+									<div class="item-title">Thailand</div>
+								</div>
+							</a>
+                                    </div>
+                                    <!-- Popular Item -->
+                                    <div class="item animated wow fadeIn" data-wow-delay=".3s">
+                                        <a href="offers.html">
+								<img src="images/bali.jpg" alt="bali image">
+								<div class="item-content">
+									<div class="item-price">From $790</div>
+									<div class="item-title">Bali</div>
+								</div>
+							</a>
+                                    </div>
+                                    <!-- Popular Item -->
+                                    <div class="item animated wow fadeIn" data-wow-delay=".2s">
+                                        <a href="offers.html">
+								<img src="images/croatia.jpg" alt="croatia image">
+								<div class="item-content">
+									<div class="item-price">From $590</div>
+									<div class="item-title">Croatia</div>
+								</div>
+							</a>
+                                    </div>
+                                    <!-- Popular Item -->
+                                    <div class="item animated wow fadeIn" data-wow-delay=".1s">
+                                        <a href="offers.html">
+								<img src="images/italy.jpg" alt="italy image">
+								<div class="item-content">
+									<div class="item-price">From $490</div>
+									<div class="item-title">Italy</div>
+								</div>
+							</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Top Destinations -->
+                <div class="top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="main-title text-center animated wow fadeIn" data-wow-delay=".2s">
+                                    <h2>Top destinations in Europe</h2>
+                                    <div>most visited by our clients</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row top-content">
+                            <div class="col-lg-3 col-md-6 top-col">
+                                <!-- Top Destination Item -->
+                                <div class="top-item animated wow fadeIn" data-wow-delay=".3s">
+                                    <a href="#">
+                                        <div class="top-item-image"><img src="images/romania.jpg" alt="picture of bran castle romania "></div>
+                                        <div class="top-item-content">
+                                            <div class="top-item-price">From $490</div>
+                                            <div class="top-item-text">Brasov, Romania</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 top-col">
+                                <!-- Top Destination Item -->
+                                <div class="top-item animated wow fadeIn" data-wow-delay=".3s">
+                                    <a href="#">
+                                        <div class="top-item-image"><img src="images/italy_cinque_terre.jpg" alt="cinque terre italy"></div>
+                                        <div class="top-item-content">
+                                            <div class="top-item-price">From $590</div>
+                                            <div class="top-item-text">Cinque Terre, Italy</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 top-col">
+                                <!-- Top Destination Item -->
+                                <div class="top-item animated wow fadeIn" data-wow-delay=".3s">
+                                    <a href="#">
+                                        <div class="top-item-image"><img src="images/spain.jpg" alt="madrid spain"></div>
+                                        <div class="top-item-content">
+                                            <div class="top-item-price">From $590</div>
+                                            <div class="top-item-text">Madrid, Spain</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 top-col">
+                                <!-- Top Destination Item -->
+                                <div class="top-item animated wow fadeIn" data-wow-delay=".3s">
+                                    <a href="#">
+                                        <div class="top-item-image"><img src="images/greece.jpg" alt="athens greece"></div>
+                                        <div class="top-item-content">
+                                            <div class="top-item-price">From $590</div>
+                                            <div class="top-item-text">Athens, Greece</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="special-offer-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="main-title text-center animated wow fadeIn" data-wow-delay=".3s">
+                                    <h2>Special offers</h2>
+                                    <div>Pick a circuit and get a 30% discount</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-content animated wow fadeIn" data-wow-delay=".3s">
+                        <div class="slider-container">
+                            <div class="owl-carousel owl-theme special_slider">
+                                <div class="owl-item">
+                                    <div class="slider-content">
+                                        <div class="slider-content_background"><img src="images/special_1.jpg" alt="indonesia image"></div>
+                                        <div class="slider-content_content text-center">
+                                            <div class="special_category">Discover</div>
+                                            <div class="special_title"><a href="offers.html">Indonesia</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="slider-content d-flex flex-column align-items-center justify-content-center">
+                                        <div class="slider-content_background"><img src="images/special_2.jpg" alt="india image"></div>
+                                        <div class="slider-content_content text-center">
+                                            <div class="special_category">Discover</div>
+                                            <div class="special_title"><a href="offers.html">India</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="slider-content d-flex flex-column align-items-center justify-content-center">
+                                        <div class="slider-content_background"><img src="images/special_3.jpg" alt="thailand image"></div>
+                                        <div class="slider-content_content text-center">
+                                            <div class="special_category">Discover</div>
+                                            <div class="special_title"><a href="offers.html">Thailand</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="slider-content d-flex flex-column align-items-center justify-content-center">
+                                        <div class="slider-content_background"><img src="images/special_4.jpg" alt="bali image"></div>
+                                        <div class="slider-content_content text-center">
+                                            <div class="special_category">Discover</div>
+                                            <div class="special_title"><a href="offers.html">Bali</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="owl-item">
+                                    <div class="slider-content d-flex flex-column align-items-center justify-content-center">
+                                        <div class="slider-content_background"><img src="images/special_5.jpg" alt="france image"></div>
+                                        <div class="slider-content_content text-center">
+                                            <div class="special_category">Discover</div>
+                                            <div class="special_title"><a href="offers.html">France</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                  <div class="owl-item">
+                                    <div class="slider-content d-flex flex-column align-items-center justify-content-center">
+                                        <div class="slider-content_background"><img src="images/special_7.jpg" alt="romania image"></div>
+                                        <div class="slider-content_content text-center">
+                                            <div class="special_category">Discover</div>
+                                            <div class="special_title"><a href="offers.html">Romania</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="owl-item">
+                                    <div class="slider-content d-flex flex-column align-items-center justify-content-center">
+                                        <div class="slider-content_background"><img src="images/special_6.jpg" alt="romania image"></div>
+                                        <div class="slider-content_content text-center">
+                                            <div class="special_category">Discover</div>
+                                            <div class="special_title"><a href="offers.html">Hungary</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="slider-nav-right d-flex flex-column align-items-center justify-content-center">
+                                <img src="images/special_slider.png" alt="">
+                            </div>
+                            <div class="slider-nav-left d-flex flex-column align-items-center justify-content-center">
+                                <img src="images/special_slider_left.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last">
+                    <div class="last_background"></div>
+                    <div class="container">
+                        <div class="row special-offer animated wow fadeIn" data-wow-delay=".3s">
+                            <div class="col-lg-6 offer">
+                                <div class="last-offer-wrapper">
+                                    <div class="last-offer-content">
+                                        <div class="location text-center">maldive</div>
+                                        <div class="percent text-center">50%</div>
+                                        <div class="title text-center">Last Minute Offer</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 offer centered">
+                                <div class="text">Discover an island that you won't forget. A lifetime experience.</div>
+                                <div class="button last_button"><a class="text-center" href="offers.html">See Offer</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Newsletter -->
+                <div class="newsletter animated wow fadeIn" data-wow-delay=".3s">
+                    <div class="newsletter-background"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <div class="newsletter-content">
+                                    <div class="newsletter_title text-center">Win a trip to Bali</div>
+                                    <p class="text-center">Sign in for our weekly offers</p>
+                                    <div class="newsletter_form_container">
+                                        <form action="#" id="newsletter_form" class="newsletter_form d-flex justify-content-center">
+                                            <div class="col-md-6 d-flex flex-md-row flex-column align-content-center justify-content-between">
+                                                <input type="email" id="newsletter_input" class="newsletter_input" placeholder="Your E-mail Address">
+                                                <button type="submit" id="newsletter_button" class="newsletter_button">Sign in</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer -->
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Footer Column -->
+                            <div class="col-lg-6 footer-col">
+                                <div class="footer-about">
+                                    <!-- Logo -->
+                                    <div class="logo-container">
+                                        <div class="logo">
+                                            <div>travel</div>
+                                            <div class="logo_image"><img src="https://cdn.pbrd.co/images/Ho3lVp5.png" height="40" alt=""></div>
+                                        </div>
+                                    </div>
+                                    <div class="footer-about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar sed mauris eget tincidunt. Sed lectus nulla, tempor vel eleifend quis, tempus rut rum metus. Pellentesque ultricies enim eu quam fermentum hendrerit.</div>
+                                </div>
+                            </div>
+                            <!-- Footer Column -->
+                            <div class="col-lg-6 footer-col">
+                                <div class="tags footer-tags">
+                                    <div class="footer-title text-center">Follow us on social media!</div>
+                                    <ul class="tags_content d-flex flex-row flex-wrap align-items-center justify-content-center">
+                                        <li class="tag"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li class="tag"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li class="tag"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                        <li class="tag"><a href="#">							<i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <div class="copyright"> Copyright &copy;
+                                    <script>
+                                    document.write(new Date().getFullYear());
+                                    </script> All rights reserved
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <script src="js/jquery-3.2.1.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+            <script src="plugins/easing/easing.js"></script>
+            <script src="js/wow.js"></script>
+            <script src="js/custom.js"></script>
+</body>
+
+</html>
