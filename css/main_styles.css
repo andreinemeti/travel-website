@@ -1294,7 +1294,9 @@ section {
         display: block
     }
     .nav-item {
-        display: block
+        display: block;
+
+    width: 160px;
     }
     .nav-item a {
         color: black;
