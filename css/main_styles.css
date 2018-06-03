@@ -649,8 +649,12 @@ section {
     background: #0f0d27
 }
 
+.search .container {
+		 padding-top: 63px;
+}
+
 .search-form_container {
-	 padding-top: 63px;
+
     width: 100%;
     margin-top: 36px
 }
