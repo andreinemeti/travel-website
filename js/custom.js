@@ -24,6 +24,15 @@ $(document).ready(function() {
 
 
 
+    var desktopNav = $(".desktop-nav").html();
+
+
+     if($(window).width() < 1381){
+
+            $(".menu").html(desktopNav);
+
+        }
+
     function initHamburger() {
       
             hamb.on('click', function(event) {
