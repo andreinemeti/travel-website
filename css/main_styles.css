@@ -537,28 +537,10 @@ section {
     top: 150px;
     left: 0;
     padding-left: 15%;
-    padding-right: 79px
+    padding-right: 79px;
 }
 
-.menu_item {
-    margin-bottom: 9px
-}
 
-.menu_item a {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: #3a3a3a;
-    -webkit-transition: all 200ms ease;
-    -moz-transition: all 200ms ease;
-    -ms-transition: all 200ms ease;
-    -o-transition: all 200ms ease;
-    transition: all 200ms ease
-}
-
-.menu_item a:hover {
-    color: #fe435b
-}
 
 .close-btn-container {
     position: absolute;
@@ -1290,14 +1272,14 @@ section {
 
 @media all and (max-width:1600px) {
     .desktop-nav {
-        padding-right: 0
+        padding-right: 0;
     }
 }
 
 @media only screen and (max-width:1500px) {
     .desktop-nav {
         padding-left: 100px;
-        padding-right: 0
+        padding-right: 0;
     }
 }
 
@@ -1306,22 +1288,35 @@ section {
         box-shadow: none
     }
     .desktop-nav {
-        display: none!important
+        display: none!important;
     }
     .hamburger {
-        display: block
+        display: block;
     }
     .nav-item {
         display: block;
 
-    width: 160px;
+
     }
     .nav-item a {
         color: black;
-        line-height: unset
+        line-height: unset;
+        min-height: 40px;
+        margin: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        width: 160px;
+    }
+
+    .dropdown-menu.show a {
+        min-height:unset;
     }
     .nav-item.active::after {
-        display: none
+        display: none;
+    }
+
+    .nav-link {
+
     }
     .mobile-menu {
         position: fixed;
