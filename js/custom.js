@@ -5,7 +5,7 @@ var wow = new WOW({
 });
 wow.init();
 
-$(document).ready(function() {
+$(document).ready(function () {
     "use strict";
 
 
@@ -27,36 +27,36 @@ $(document).ready(function() {
     var desktopNav = $(".desktop-nav").html();
 
 
-     if($(window).width() < 1381){
+    if ($(window).width() < 1381) {
 
-            $(".menu").html(desktopNav);
+        $(".menu").html(desktopNav);
 
-        }
+    }
 
     function initHamburger() {
-      
-            hamb.on('click', function(event) {
-                event.stopPropagation();
 
-                if (!menuActive) {
-                    openMenu();
+        hamb.on('click', function (event) {
+            event.stopPropagation();
+
+            if (!menuActive) {
+                openMenu();
+                $('body').css({
+                    overflow: 'hidden',
+
+                });
+                $('.close-btn-container').click(function () {
+                    closeMenu();
                     $('body').css({
-                        overflow: 'hidden',
+                        'overflow-y': 'scroll',
+                    });
+                });
+            } else {
+                $('.mobile-menu').removeClass('active');
+                menuActive = false;
+            }
+        });
+    }
 
-                    });
-                    $('.close-btn-container').click(function() {
-                        closeMenu();
-                        $('body').css({
-                            'overflow-y': 'scroll',
-                        });
-                    });
-                } else {
-                    $('.mobile-menu').removeClass('active');
-                    menuActive = false;
-                }
-            });
-        }
- 
 
     function openMenu() {
         var fs = $('.mobile-menu');
@@ -100,12 +100,12 @@ $(document).ready(function() {
 
         if ($('.slider-nav-right').length) {
             var next = $('.slider-nav-right');
-            next.on('click', function() {
+            next.on('click', function () {
                 specialSlider.trigger('next.owl.carousel');
             });
         }
 
-        $('.slider-nav-left').click(function() {
+        $('.slider-nav-left').click(function () {
 
             specialSlider.trigger('prev.owl.carousel');
         })
@@ -116,8 +116,8 @@ $(document).ready(function() {
     // 7.slow scrolling
 
     //slow scrolling when clicking on links
-    $(document).ready(function() {
-        $("a").on('click', function(event) {
+    $(document).ready(function () {
+        $("a").on('click', function (event) {
             if (this.hash !== "") {
                 if ($(window).width() > 767) {
                     event.preventDefault();
@@ -126,7 +126,7 @@ $(document).ready(function() {
                     $('html, body').animate({
 
                         scrollTop: $(hash).offset().top - 90
-                    }, 800, function() {
+                    }, 800, function () {
                         window.location.hash = hash;
                     });
                 } else {
@@ -135,8 +135,8 @@ $(document).ready(function() {
 
                     $('html, body').animate({
 
-                        scrollTop: $(hash).offset().top 
-                    }, 800, function() {
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
                         window.location.hash = hash;
                     });
 
